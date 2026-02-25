@@ -229,7 +229,7 @@ let _countdownId=null,_countdownVal=5;
 (function(){
   const c=localStorage.getItem(SK_C)||DEFAULT_TOKEN;
   if(c)document.getElementById('cesiumTokenInput').value=c;
-  // Start auto-launch countdown
+  //  Start auto-launch countdown
   startCountdown();
   // Cancel countdown when user interacts with input
   document.getElementById('cesiumTokenInput').addEventListener('focus',cancelCountdown);
